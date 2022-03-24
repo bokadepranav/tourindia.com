@@ -1,0 +1,620 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Home Page</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans&display=swap" rel="stylesheet">
+
+	<style type="text/css">
+		body{
+			background-color: rgb(240, 240, 240);
+		}
+		.divgroup{
+			height: 1600px;
+		}
+		.mdiv{
+			overflow: auto;
+		}
+		.mdivdisc{
+			background-color: white; 
+			margin-bottom: 2%;
+      font-family: 'Playfair Display', serif;
+      padding: 4%;
+      font-size: 20px;
+		}
+		.sldr{
+      margin-bottom: 15px;
+		}
+		.updisc{
+			background-color: rgba(204, 83, 22, 0.7);
+			border-radius: 5px;
+			height: 100%;
+			width: 47%;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0.7%;
+		}
+		.btmdisc{
+			background-color: rgba(47, 105, 47, 0.7);
+			border-radius: 5px;
+			height: 100%;
+			width: 47%;
+			margin-left: auto;
+			margin-right: auto;
+			padding: 0.7%;
+		}
+		.contc{
+			padding: 5%;
+			background-color: white;
+		}
+		.cardgrp{
+			margin-bottom: 3.5%;
+		}
+		.copyrg{
+			background-color: rgb(94, 12, 12);
+			color: white;
+			height: 40px;
+
+		}
+		.sidebr{
+			background-color: white;
+			padding: 5%;
+		}
+		.hprlink{
+			text-decoration: none;
+		}
+		.lstitem{
+			line-height: 40px;
+		}
+    .ftrhead{
+      background-color: white;
+      margin-top: 3.5%;
+      padding: 5%;
+    }
+    .ftrpost{
+      margin-top: 3.5%;
+    }
+    .rcntpost{
+      background-color: white;
+      padding: 5%;
+      margin-top: 3.5%;
+    }
+    .hdtxt{
+      font-family: 'Playfair Display', serif;
+      font-size: 35px;
+    }
+    .smalltxt{
+      text-align: justify;
+      font-family: 'Work Sans', sans-serif;
+      color: rgb(128, 119, 119);
+    }
+    .subhdtxt{
+      font-family: 'Bebas Neue', cursive;
+      font-size: 30px;
+      text-align: center;
+    }
+    .drkclr{
+      color: rgb(128, 36, 36);
+    }
+    a:hover{
+      color: rgb(184, 79, 15);
+    }
+    .bckgrnd{
+      background-color: white;
+      vertical-align: middle;
+      text-align: center;
+    }
+    .ctg{
+      padding-top: 5%;
+    }
+    .sldrbtnbg{
+      background-color: grey;
+      height: 60px;
+      width: 60px;
+      border-radius: 100px;
+      margin-top: 230px;
+    }
+    .crdht{
+      height: 520px;
+    }
+	</style>
+</head>
+<body>
+
+<!-- menubar -->
+
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<a class="navbar-brand" href="index.html">
+      <img src="image/logo2.jpg" alt="" width="50" height="44">
+    </a>
+  <div class="container-fluid">
+    <a class="navbar-brand drkclr" href="index.html">INDIA TOURISM</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="nature_page.html">Nature</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="temple_page.html">Temple</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Hill Stations</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Pilgrimage</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Festival</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- images slider -->
+
+
+<div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner sldr">
+    <div class="carousel-item active">
+      <img src="slider/poster5.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="slider/poster3.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="slider/poster4.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="slider/poster1.png" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="slider/poster2.png" class="d-block w-100" alt="...">
+    </div>
+  </div>
+    <button class="carousel-control-prev sldrbtnbg" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next sldrbtnbg" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+
+
+
+<!-- body div -->
+
+<div class="row">
+
+	<!-- div1 -->
+
+	<div class="col-sm-3 col-md-3 col-lg-3 divgroup">
+		
+		<!-- categories sidebar -->
+
+    <nav class="navbar sticky-top navbar-light bg-light">
+      <div class="container-fluid bckgrnd ctg">
+        <a class="navbar-brand" href="#">
+          <h4 align="center" class="subhdtxt drkclr">Categories</h4>
+        </a>
+      </div>
+    </nav>
+
+		<div class="sidebr">
+			
+			<div>
+				<a href="" class="hprlink lstitem smalltxt">Hill Stations</a><br>
+				<a href="nature_page.html" class="hprlink lstitem smalltxt">Nature</a><br>
+				<a href="" class="hprlink lstitem smalltxt">Pilgrimage</a><br>
+				<a href="temple_page.html" class="hprlink lstitem smalltxt">Temple</a><br>
+				<a href="" class="hprlink lstitem smalltxt">Festivals</a><br>
+				<a href="" class="hprlink lstitem smalltxt">Tourism</a><br>
+				<a href="" class="hprlink lstitem smalltxt">Buildings and Statue</a><br>
+			</div>
+		</div>
+
+    <!-- featured posts -->
+
+    <nav class="navbar sticky-top navbar-light bg-light">
+      <div class="container-fluid bckgrnd">
+        <a class="navbar-brand" href="#">
+          <div class="ftrhead">
+            <h4 align="center" class="subhdtxt drkclr">Our Featured Posts</h4>
+          </div>
+        </a>
+      </div>
+    </nav>
+
+    
+    <div class="card mb-3 ftrpost" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <a href="nature_page.html"><img src="featured/featured1.jpg" class="img-fluid rounded-start" alt="..."></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body"> 
+            <h5 class="card-title mdivdisc">Best places to Wander in Nature.</h5>
+            <p class="card-text"><small class="text-muted">October 16,2021</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 ftrpost" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <a href="nature_page.html"><img src="featured/featured7.jpg" class="img-fluid rounded-start" alt="..."></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body"> 
+            <h5 class="card-title mdivdisc">Must Visit these Mesmerising Places in Southern India.</h5>
+            <p class="card-text"><small class="text-muted">October 16,2021</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 ftrpost" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <a href=""><img src="featured/featured2.jpg" class="img-fluid rounded-start" alt="..."></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title mdivdisc">Top Hill Stations for Best Holiday Experience.</h5>
+            <p class="card-text"><small class="text-muted">October 16,2021</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 ftrpost" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <a href=""><img src="featured/featured5.jpg" class="img-fluid rounded-start" alt="..."></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title mdivdisc">Visit these Destinations to Feel Indian Pride.</h5>
+            <p class="card-text"><small class="text-muted">October 16,2021</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 ftrpost" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <a href="nature_page.html"><img src="featured/featured6.jpg" class="img-fluid rounded-start" alt="..."></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title mdivdisc">Top Places to Visit in Eastern India.</h5>
+            <p class="card-text"><small class="text-muted">October 16,2021</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 ftrpost" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <a href=""><img src="featured/featured4.jpg" class="img-fluid rounded-start" alt="..."></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title mdivdisc">Best Monuments in India to Visit.</h5>
+            <p class="card-text"><small class="text-muted">October 16,2021</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card mb-3 ftrpost" style="max-width: 540px;">
+      <div class="row g-0">
+        <div class="col-md-4">
+          <a href="temple_page.html"><img src="featured/featured3.jpg" class="img-fluid rounded-start" alt="..."></a>
+        </div>
+        <div class="col-md-8">
+          <div class="card-body">
+            <h5 class="card-title mdivdisc">India can be rightly called the 'Land of Faith'</h5>
+            <p class="card-text"><small class="text-muted">October 16,2021</small></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+
+	</div>
+
+	<!-- div2 -->
+
+	<div class="col-sm-9 col-md-6 col-lg-6 mdiv divgroup">
+
+		<!-- div2 description -->
+
+		<div class="mdivdisc">
+			Planning a vacation in India? Looking for something useful to read about travelling? Have a look below.
+		</div>
+
+
+		<!-- card group -->
+
+		<div class="row row-cols-1 row-cols-md-2 g-4 cardgrp">
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="temple_page.html"><img src="image/img1tirupatitemple.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Sri Venkateswara Swamy Temple, Andhra Pradesh</h5>
+        				<p class="card-text smalltxt">Venkateswara Temple is a Hindu temple situated in town of Tirumala in Chittoor district of Andhra Pradesh, India.</p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="nature_page.html"><img src="image/img48sundarban.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">The Sundarban, West Bengal</h5>
+        				<p class="card-text smalltxt">A national park, also popular as a tiger reserve in West Bengal. Situated at the delta formed by Ganga, Brahmaputra and Meghna rivers. Sundarban tour packages is best for wildlife lovers as well as leisure travellers.</p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="nature_page.html"><img src="image/img47darjeeling.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Darjeeling, West Bengal</h5>
+        				<p class="card-text smalltxt">Darjeeling foundly called "Queen of Hills" , provides a perfect gateway for those seeking to be in harmony with nature. Have a look at Jaw-dropping locales, mesmerising sunrises, the untouched beauty of the hills here.</p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col">
+    			<div class="card crdht" >
+      				<a href="nature_page.html"><img src="image/img32chandigarh.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Chandigarh, Punjab</h5>
+        				<p class="card-text smalltxt">For nightlife, sightseeing tour, shopping, authentic Punjabi cuisine, festivals, architecture and design Chandigarh must be in your list.</p>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+		<div class="row row-cols-1 row-cols-md-2 g-4 cardgrp">
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href=""><img src="image/img14mysorepalace.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Mysore Palace, Karnataka</h5>
+        				<p class="card-text smalltxt">If you have an eye for appreciating architectural designs then Mysore Palce is must visit for you. It is one of the things every tourist should try as it gives an interestin narration about the history of the palace and Royal family of Wodeyars.</p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="nature_page.html"><img src="image/img26guwahati.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Guwahati, Assam</h5>
+        				<p class="card-text smalltxt">Being one of the best tourist places in Assam, the city of Guwahati is a perfect blend of nature, culture, heritage, religion, and buzzing nightlife.</p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="temple_page.html"><img src="image/img19khajoraho.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Khajuraho, Madhya Pradesh</h5>
+        				<p class="card-text smalltxt">The splendour of the intricate statues is one of the reasons that makes Khajuraho a popular site to visit among tourists. </p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="nature_page.html"><img src="image/img12manali.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Manali, Himachal Pradesh</h5>
+        				<p class="card-text smalltxt">Manali's is still one of the coolest places to visit during summer. No matter how many times you visit Manali, you cannot ignore the fact that it provides relief from the brutal brunt of summer in India’s plains.</p>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+		<div class="row row-cols-1 row-cols-md-2 g-4 cardgrp">
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="nature_page.html"><img src="image/img6goa.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Goa</h5>
+        				<p class="card-text smalltxt">It's no secret that Goa is a favourite beach destination in India. It has a laid-back lifestyle, hippie vibe, glorious scenic beaches, natural tranquillity, beach sports, and awesome parties.</p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="temple_page.html"><img src="image/img43vrindavan.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Vrindavan, Uttar Pradesh</h5>
+        				<p class="card-text smalltxt">Vrindavan is a perfect tourism destination to lose yourself in the devotion of Krishna and to learn about his life.</p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="nature_page.html"><img src="image/img46nainital.jpg" class="card-img-top" alt="..." name="naini"></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Nainital, Uttarakhand</h5>
+        				<p class="card-text smalltxt">The Lake District of India - Nainital is one of the most charismatic hill stations that India harbors. Nainital bounded by green mountains make a really high quality picture.</p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href=""><img src="image/img23mumbai.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Mumbai, Maharashtra</h5>
+        				<p class="card-text smalltxt">An abundance of historical and cultural sites makes Mumbai one of the country's most fascinating destinations.</p>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+		<div class="row row-cols-1 row-cols-md-2 g-4">
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="nature_page.html"><img src="image/img3assam.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Assam</h5>
+        				<p class="card-text smalltxt">Assam is a brimming tourist hub everything from the ancient temples, the wildlife sanctuaries, the scenic beauty of Brahmaputra and its unique culture.</p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="temple_page.html"><img src="image/img52kedarnath.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Kedarnath Temple, Uttarakhand</h5>
+        				<p class="card-text smalltxt">A popular destination for hindu pilgrims, kedarnath is one of the four major sites in India's Chhota char Dham pilgrimage. Its best to enjoy the beauty of nature and waterfalls on the way to Kedarnath temple.</p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="nature_page.html"><img src="image/img49zanskar.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Zanskar, Himalaya</h5>
+        				<p class="card-text smalltxt">Zanskar is popular with adventure junkies. A hotspot for trekking, paragliding and river rafting, Lamayuru to Darcha and Lamayuru-Padum are some of the popular trekking trails that pass around Zanskar.</p>
+      				</div>
+    			</div>
+  			</div>
+  			<div class="col">
+    			<div class="card crdht">
+      				<a href="temple_page.html"><img src="image/img42varanasi.jpg" class="card-img-top" alt="..."></a>
+      				<div class="card-body">
+        				<h5 class="card-title hdtxt">Varanasi, Uttar Pradesh</h5>
+        				<p class="card-text smalltxt">The land of Varanasi (Kashi) has been the ultimate pilgrimage spot for Hindus for ages. If you are seeking a place to gain experience of spiritual awekening, positive vibrations and peacful holiday then varanasi is best destination for your next trip.</p>
+      				</div>
+    			</div>
+  			</div>
+		</div>
+
+
+  	</div>
+
+	<!-- div3 -->
+
+	<div class="col-sm-3 col-md-3 col-lg-3 divgroup">
+		
+		<!-- contact form -->
+
+		<div class="contc">
+			<form method="post" action="contact.php">
+				<h3 class="subhdtxt drkclr" align="center">Drop us a line</h3>
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">Name</label>
+				    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nm">
+				    <div id="emailHelp" class="form-text">We'll never share your details with anyone else.</div>
+				</div>
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">Email address</label>						    
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="em">
+				</div>
+				<div class="mb-3">
+					<label for="exampleInputEmail1" class="form-label">Contact No.</label>
+				    <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="cn">
+				</div>
+				<div class="mb-3">
+			 		<label for="exampleFormControlTextarea1" class="form-label">Message</label>
+			 		<textarea type="text" class="form-control" id="exampleFormControlTextarea1" name="ms" rows="3"></textarea>
+				</div>
+				<input type="submit" class="btn btn-primary" value="Submit">
+			</form>
+		</div>
+
+		
+    <!-- recent posts -->
+
+    <nav class="navbar sticky-top navbar-light bg-light">
+  <div class="container-fluid bckgrnd">
+    <a class="navbar-brand" href="#">
+      <div class="ftrhead">
+      <h4 align="center" class="subhdtxt drkclr">Our Recent Posts</h4>
+    </div>
+    </a>
+  </div>
+</nav>
+
+    
+
+    <div class="rcntpost">
+      <a href="nature_page.html" class="hprlink smalltxt">Best Place to Visit in Karnataka in November to Honour the Pre-Winter Celebration</a><br><br>
+      <a href="nature_page.html" class="hprlink smalltxt">Best Places to visit in Assam for a Rejuvenating Experience</a><br><br>
+      <a href="#" class="hprlink smalltxt">Places In Southern India Where You Can Sit Back And Relax!</a><br><br>
+      <a href="#" class="hprlink smalltxt">Places to Visit in September in India in a Budget</a><br><br>
+      <a href="temple_page.html" class="hprlink smalltxt">Best Places to Visit in and around Kedarnath Dham Temple in Uttarakhand</a><br><br>
+      <a href="#" class="hprlink smalltxt">Plan a Goa Beach Break & Enjoy Yourself with a Range of Activities at the Famous Beaches Destinations in Goa</a><br><br>
+      <a href="nature_page.html" class="hprlink smalltxt">Best Places to Explore & Top Things to Do in Sundarban National Park, West Bengal</a><br><br>
+      <a href="nature_page.html" class="hprlink smalltxt">Top 7 Winter Treks in Himachal Pradesh</a><br><br>
+      <a href="temple_page.html" class="hprlink smalltxt">Embark on a Spiritual Journey while Travelling to Ganga Aarti at Hrishikesh, West Bengal</a><br><br>
+
+
+      <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">Contact Us</button>
+
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+        <div class="offcanvas-header">
+          <h5 id="offcanvasRightLabel"><h3 class="hdtxt drkclr">Drop us a line</h3></h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          
+          <div class="contc">
+            <form method="post" action="contact.php">
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Name</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="nm">
+                  <div id="emailHelp" class="form-text">We'll never share your details with anyone else.</div>
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Email address</label>                
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="em">
+              </div>
+              <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Contact No.</label>
+                  <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" name="cn">
+              </div>
+              <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                <textarea type="text" class="form-control" id="exampleFormControlTextarea1" name="ms" rows="3"></textarea>
+              </div>
+              <input type="submit" class="btn btn-primary" value="Submit">
+            </form>
+          </div>
+
+
+
+        </div>
+      </div>
+
+
+    </div>
+
+	</div>
+
+</div>
+
+
+<!-- copyright bar -->
+
+<div class="copyrg">
+  <h5 align="center">2021 Copyright Reserved Tour India - Best Tourist Blog</h5>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
